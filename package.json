@@ -1,0 +1,33 @@
+{
+  "name": "bomberman-dom",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A bomberman alike game, where multiple players can join in and battle until one of them is the last man standing.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://01.kood.tech/git/jrms/bomberman-dom.git"
+  },
+  "keywords": [
+    "multiplayer"
+  ],
+  "author": "kood/Jõhvi",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "vite": "^4.5.0",
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
